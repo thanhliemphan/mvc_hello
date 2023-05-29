@@ -1,5 +1,7 @@
 package mvc.entity;
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "book")
@@ -8,7 +10,7 @@ public class BookEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column (name = "id")
     private int id;
-
+    @NotEmpty(message = "Must have not null")
     @Column (name = "name")
     private String name;
 

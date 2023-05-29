@@ -5,9 +5,7 @@
     <link rel="stylesheet" type="text/css" href='${pageContext.request.getContextPath()}/webjars/bootstrap/5.1.3/css/bootstrap.min.css' />
     <script src="${pageContext.request.getContextPath()}/webjars/bootstrap/5.1.3/js/bootstrap.min.js"></script>
     <title>Spring MVC Form Handling</title>
-    <style>
-        <%@include file="/resources/css/userForm.css"%>
-    </style>
+
 </head>
 <body>
     <div class="d-flex justify-content-center">

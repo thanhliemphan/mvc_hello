@@ -54,7 +54,6 @@
                   <form:option value="0" label="Choose..." />
                   <form:options items="${categoryList}" />
                 </form:select>
-
                 <small class="form-text text-muted"><form:errors path="category.id" class="text-error" /></small>
               </div>
 
